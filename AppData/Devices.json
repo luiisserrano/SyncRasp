@@ -1,0 +1,22 @@
+{
+  "devices": [
+    {
+      "name": "PuertaEntrada",
+      "ipAddress": "192.168.0.201",
+      "port": 4370,
+      "key": 6666,
+      "timeOut": 5000
+    },
+    {
+      "name": "PuertaSalida",
+      "ipAddress": "192.168.0.202",
+      "port": 4370,
+      "key": 6666,
+      "timeOut": 5000
+    }
+  ],
+  "Api": {
+    "BaseUrl": "https://localhost:7217",
+    "ActiveEndpoint": "/api/Identifier/Active"
+  }
+}
